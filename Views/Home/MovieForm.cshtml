@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Movie Form";
+}
+@model Mission4Assignment.Models.Applicationresponse
+
+<h1>@ViewData["Title"]</h1>
+
+<p>This is the movie form page</p>
+
+<div>
+    <form method="post">
+        <label>Category:</label>
+        <input asp-for="Category" /><br />
+        <label>Movie Title:</label>
+        <input asp-for="MovieTitle" /><br />
+        <label>Year:</label>
+        <input asp-for="Year" /><br />
+        <label>Director:</label>
+        <input asp-for="Director" /><br />
+        <label>Rating:</label>
+        <select asp-for="Rating">
+            <option value="G">G</option>
+            <option value="PG">PG</option>
+            <option value="PG-13">PG-13</option>
+            <option value="R">R</option>
+        </select><br />
+        <label>Edited:</label>
+        <select asp-for="Edited">
+            <option value="True">Yes</option>
+            <option value="False">No</option>
+        </select><br />
+        <label>Lent to:</label>
+        <input asp-for="LentTo" /><br />
+        <label>Notes:</label>
+        <input asp-for="Notes" /><br />
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
