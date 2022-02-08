@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{0D5471E6-387C-4CA7-8716-27B51E9A131C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Mission4Assignment PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
+    <Files>
+      <File FileName="Views/Home/MovieForm.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/Home/Privacy.cshtml" />
+      <File FileName="Controllers/HomeController.cs" Line="18" Column="10" />
+      <File FileName="Views/Home/MovieList.cshtml" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission4Assignment" expanded="True">
+            <Node name="Mission4Assignment" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

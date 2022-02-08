@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Landon/Projects/Mission4Assignment/Mission4Assignment/Mission4Assignment.csproj": {}
+    "/Users/Landon/Desktop/webApps/asp/Mission4Assignment/Mission4Assignment.csproj": {}
   },
   "projects": {
-    "/Users/Landon/Projects/Mission4Assignment/Mission4Assignment/Mission4Assignment.csproj": {
+    "/Users/Landon/Desktop/webApps/asp/Mission4Assignment/Mission4Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Landon/Projects/Mission4Assignment/Mission4Assignment/Mission4Assignment.csproj",
+        "projectUniqueName": "/Users/Landon/Desktop/webApps/asp/Mission4Assignment/Mission4Assignment.csproj",
         "projectName": "Mission4Assignment",
-        "projectPath": "/Users/Landon/Projects/Mission4Assignment/Mission4Assignment/Mission4Assignment.csproj",
+        "projectPath": "/Users/Landon/Desktop/webApps/asp/Mission4Assignment/Mission4Assignment.csproj",
         "packagesPath": "/Users/Landon/.nuget/packages/",
-        "outputPath": "/Users/Landon/Projects/Mission4Assignment/Mission4Assignment/obj/",
+        "outputPath": "/Users/Landon/Desktop/webApps/asp/Mission4Assignment/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Landon/.config/NuGet/NuGet.Config"
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/Landon/Library/Caches/VisualStudio/8.0/MSBuild/94944_1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/Landon/Library/Caches/VisualStudio/8.0/MSBuild/419_1/RuntimeIdentifierGraph.json"
         }
       }
     }
