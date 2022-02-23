@@ -46,10 +46,29 @@ namespace Mission4Assignment.Controllers
             return View("Confirmation", ar);
         }
 
+        public IActionResult MovieList ()
+        {
+            var applications = blahContext.Responses
+                //.Where( x=> x.Edited == false)
+                .OrderBy(x => x.MovieTitle)
+                .ToList();
+            return View(applications);
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult Edit()
+        {
+            var application = blahContext.Responses.Single();
+            return View("MovieForm");
+        }
+
+        public IActionResult Delete()
+        {
+            return View();
         }
     }
 }

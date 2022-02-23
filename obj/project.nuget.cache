@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1lUQaAK+4hakRHrpV6Ua3qafgxwd+fuLqF3l1fchVLsBsQ3bgBArT7UYzAenxeJCAKdHT/Vxj5ronBpRUx3PNg==",
+  "dgSpecHash": "RE4MuNBnfSR7bGqrt1g8GoPGp6V0BSNbFs3gKLSOJr0+Ed8dkXCpnXmi9ClCO/3xWTXuu8fpf49o2yshO+V2cw==",
   "success": true,
   "projectFilePath": "/Users/Landon/Desktop/webApps/asp/Mission4Assignment/Mission4Assignment.csproj",
   "expectedPackageFiles": [
@@ -37,9 +37,7 @@
     "/Users/Landon/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/Users/Landon/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "/Users/Landon/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/Landon/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
-    "/Users/Landon/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "/Users/Landon/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "/Users/Landon/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

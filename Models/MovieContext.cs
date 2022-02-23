@@ -4,10 +4,12 @@ namespace Mission4Assignment.Models
 {
     public class MovieContext : DbContext
     {
-       public MovieContext (DbContextOptions<MovieContext> options): base (options)
+        public MovieContext(DbContextOptions<MovieContext> options) : base(options)
         { }
 
         public DbSet<Applicationresponse> Responses { get; set; }
+
+        public DbSet<Rating> Ratings {get; set; }
 
         protected override void OnModelCreating(ModelBuilder mb)
         {
@@ -19,7 +21,7 @@ namespace Mission4Assignment.Models
                     Category = "Animation",
                     Year = 2007,
                     Director = "Disney",
-                    Rating = "G",
+                    RatingID = "G",
                     Edited = "No",
                     LentTo = "no one",
                     Notes = "cinematic masterpiece"
@@ -30,7 +32,7 @@ namespace Mission4Assignment.Models
                     Category = "Animation",
                     Year = 2009,
                     Director = "Disney",
-                    Rating = "G",
+                    RatingID = "G",
                     Edited = "No",
                     LentTo = "no one",
                     Notes = "amazing cinematic masterpiece"
